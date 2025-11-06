@@ -1,0 +1,61 @@
+baseURL: https://fchireacarpinteros.com/
+defaultContentLanguage: es
+languageCode: es
+title: FCHIREA CARPINTEROS
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html, the maps iframe
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: false
+  page:
+      # full (100%), wide (90rem), normal (1280px)
+      width: normal
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: logo-dark.svg
+      dark: logo.svg
+      link: /
+      width: 20
+      height: 20
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+
+menu:
+  main:
+    - name: Nosotros
+      pageRef: _index
+      weight: 1
+    - name: Servicios
+      pageRef: servicios
+      weight: 2
+#    - name: Prefabricados
+#      pageRef: productos
+#      weight: 3
+    - name: Proyectos
+      pageRef: proyectos
+      weight: 4
+#    - name: Guías
+#      pageRef: guia_tecnica/
+#      weight: 5
+    - name: Contacto
+      pageRef: contacto
+      weight: 6
+#    - name: Theme Toggle
+#      params:
+#        type: theme-toggle
+#        label: false

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35.999996mm"
+   height="23.000002mm"
+   viewBox="0 0 35.999996 23.000002"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#aab1bd;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient3"
+       gradientUnits="userSpaceOnUse"
+       x1="1"
+       y1="11.5"
+       x2="33"
+       y2="11.5" />
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient4"
+       gradientUnits="userSpaceOnUse"
+       x1="1"
+       y1="11.5"
+       x2="33"
+       y2="11.5"
+       gradientTransform="translate(0,2)" />
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient5"
+       gradientUnits="userSpaceOnUse"
+       x1="1"
+       y1="11.5"
+       x2="33"
+       y2="11.5"
+       gradientTransform="matrix(1,0,0,1.095238,2,-0.09523814)" />
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient6"
+       gradientUnits="userSpaceOnUse"
+       x1="1"
+       y1="11.5"
+       x2="33"
+       y2="11.5"
+       gradientTransform="matrix(1,0,0,1.095238,4,-0.0952381)" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-0.99999995,-1.0000001)">
+    <rect
+       style="fill:url(#linearGradient3);fill-opacity:1;stroke-width:0.13;stroke-linejoin:bevel;stroke-dasharray:0.390001, 0.390001"
+       id="rect1"
+       width="10"
+       height="10"
+       x="1"
+       y="1" />
+    <rect
+       style="fill:url(#linearGradient4);fill-opacity:1;stroke-width:0.13;stroke-linejoin:bevel;stroke-dasharray:0.390001, 0.390001"
+       id="rect1-8"
+       width="10"
+       height="10"
+       x="1"
+       y="14" />
+    <rect
+       style="fill:url(#linearGradient5);fill-opacity:1;stroke-width:0.136049;stroke-linejoin:bevel;stroke-dasharray:0.40815, 0.40815"
+       id="rect1-8-5"
+       width="10"
+       height="23"
+       x="14"
+       y="1.0000005" />
+    <rect
+       style="fill:url(#linearGradient6);fill-opacity:1;stroke-width:0.136049;stroke-linejoin:bevel;stroke-dasharray:0.40815, 0.40815"
+       id="rect1-8-5-1"
+       width="10"
+       height="23"
+       x="27"
+       y="1.0000001" />
+  </g>
+</svg>

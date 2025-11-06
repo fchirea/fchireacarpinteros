@@ -1,0 +1,90 @@
+{{- /*
+@param {string} link The link to the card.
+@param {string} title The title of the card.
+@param {string} icon The icon of the card.
+@param {string} subtitle The subtitle of the card.
+@param {string} tag The tag of the card.
+@param {string} tagColor The color of the tag.
+@param {string} image The poster image of the card.
+@param {string} video The WebM video path (or remote URL).
+@param {string} video_mp4 Optional MP4 fallback path (or remote URL).
+@param {string} method Image processing method.
+@param {string} options Image processing options.
+@param {string} imageStyle The style of the image.
+*/ -}}
+
+{{- $link := .Get "link" -}}
+{{- $title := .Get "title" -}}
+{{- $icon := .Get "icon" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $image := .Get "image" -}}
+{{- $video := .Get "video" -}}
+{{- $video_mp4 := .Get "video_mp4" -}}
+{{- $width := 0 -}}
+{{- $height := 0 -}}
+{{- $imageStyle := .Get "imageStyle" -}}
+{{- $tag := .Get "tag" -}}
+{{- $tagColor := .Get "tagColor" | default (.Get "tagType") | default "" -}}
+{{- $tagBorder := not (eq (.Get "tagBorder") false) | default true }}
+{{- $tagIcon := .Get "tagIcon" | default "" -}}
+
+{{/* Image processing options (poster) */}}
+{{- $method := .Get "method" | default "Resize" | humanize -}}
+{{- $options := .Get "options" | default "800x webp q80" -}}
+{{- $process := .Get "process" | default (printf "%s %s" $method $options) -}}
+
+{{- /* Resolve/process poster image (same as default Hextra card) */ -}}
+{{- if and $image (not (urls.Parse $image).Scheme) -}}
+  {{- with or (.Page.Resources.Get $image) (resources.Get $image) -}}
+    {{- if (not (eq .MediaType.SubType "svg")) -}}
+      {{- $processed := .Process $process -}}
+      {{- $width = $processed.Width -}}
+      {{- $height = $processed.Height -}}
+      {{- $image = $processed.RelPermalink -}}
+    {{- end -}}
+  {{- else -}}
+    {{- if hasPrefix $image "/" -}}
+      {{- $image = relURL (strings.TrimPrefix "/" $image) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Resolve local video resources (do not attempt to Process video) */ -}}
+{{- if and $video (not (urls.Parse $video).Scheme) -}}
+  {{- with or (.Page.Resources.GetMatch $video) (resources.Get $video) -}}
+    {{- $video = .RelPermalink -}}
+  {{- else -}}
+    {{- if hasPrefix $video "/" -}}
+      {{- $video = relURL (strings.TrimPrefix "/" $video) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and $video_mp4 (not (urls.Parse $video_mp4).Scheme) -}}
+  {{- with or (.Page.Resources.GetMatch $video_mp4) (resources.Get $video_mp4) -}}
+    {{- $video_mp4 = .RelPermalink -}}
+  {{- else -}}
+    {{- if hasPrefix $video_mp4 "/" -}}
+      {{- $video_mp4 = relURL (strings.TrimPrefix "/" $video_mp4) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- partial "shortcodes/video_card.html" (dict
+  "page"        .Page
+  "link"        $link
+  "title"       $title
+  "icon"        $icon
+  "subtitle"    $subtitle
+  "image"       $image
+  "video"       $video
+  "video_mp4"   $video_mp4
+  "width"       $width
+  "height"      $height
+  "imageStyle"  $imageStyle
+  "tag"         $tag
+  "tagType"     $tagColor
+  "tagBorder"   $tagBorder
+  "tagIcon"     $tagIcon
+  )
+-}}

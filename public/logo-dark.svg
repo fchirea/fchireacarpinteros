@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35.999996mm"
+   height="23mm"
+   viewBox="0 0 35.999996 23"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient15">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop15" />
+      <stop
+         style="stop-color:#aab1bd;stop-opacity:1;"
+         offset="1"
+         id="stop16" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient15"
+       id="linearGradient16"
+       x1="1"
+       y1="12.5"
+       x2="37"
+       y2="12.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient15"
+       id="linearGradient6"
+       gradientUnits="userSpaceOnUse"
+       x1="1"
+       y1="12.5"
+       x2="37"
+       y2="12.5" />
+    <linearGradient
+       xlink:href="#linearGradient15"
+       id="linearGradient7"
+       gradientUnits="userSpaceOnUse"
+       x1="1"
+       y1="12.5"
+       x2="37"
+       y2="12.5" />
+    <linearGradient
+       xlink:href="#linearGradient15"
+       id="linearGradient10"
+       gradientUnits="userSpaceOnUse"
+       x1="1"
+       y1="12.5"
+       x2="37"
+       y2="12.5" />
+    <linearGradient
+       xlink:href="#linearGradient15"
+       id="linearGradient11"
+       gradientUnits="userSpaceOnUse"
+       x1="1"
+       y1="12.5"
+       x2="37"
+       y2="12.5" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-0.99999995,-30.000001)">
+    <g
+       id="g6-1"
+       style="fill:url(#linearGradient16);fill-opacity:1"
+       transform="translate(0,29)">
+      <rect
+         style="fill:url(#linearGradient6);fill-opacity:1;stroke-width:0.13;stroke-linejoin:bevel;stroke-dasharray:0.390001, 0.390001"
+         id="rect1-4"
+         width="10"
+         height="10"
+         x="1"
+         y="1" />
+      <rect
+         style="fill:url(#linearGradient7);fill-opacity:1;stroke-width:0.13;stroke-linejoin:bevel;stroke-dasharray:0.390001, 0.390001"
+         id="rect1-8-2"
+         width="10"
+         height="10"
+         x="1"
+         y="14" />
+      <rect
+         style="fill:url(#linearGradient10);fill-opacity:1;stroke-width:0.136049;stroke-linejoin:bevel;stroke-dasharray:0.40815, 0.40815"
+         id="rect1-8-5-3"
+         width="10"
+         height="23"
+         x="14"
+         y="1.0000005" />
+      <rect
+         style="fill:url(#linearGradient11);fill-opacity:1;stroke-width:0.136049;stroke-linejoin:bevel;stroke-dasharray:0.40815, 0.40815"
+         id="rect1-8-5-1-2"
+         width="10"
+         height="23"
+         x="27"
+         y="1.0000001" />
+    </g>
+  </g>
+</svg>
