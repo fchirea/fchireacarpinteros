@@ -19,11 +19,6 @@ toc: false
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
-{{< hextra/hero-badge style="padding: 13px 12px; font-size: .875rem;" link="tel:+34666390657" >}}
-  <span>Llamar a 666 39 06 57</span>
-  {{< icon name="phone" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-
 <br>
 
 **Email**  
