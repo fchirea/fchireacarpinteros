@@ -1,7 +1,7 @@
 baseURL: https://fchireacarpinteros.com/
 defaultContentLanguage: es
 languageCode: es
-title: FCHIREA CARPINTEROS
+title: Carpintería Aluminio FChirea
 
 module:
   imports:
