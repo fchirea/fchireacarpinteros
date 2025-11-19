@@ -1,7 +1,7 @@
 baseURL: https://fchireacarpinteros.com/
 defaultContentLanguage: es
 languageCode: es
-title: Carpintería Aluminio FChirea
+title: FCHIREA CARPINTEROS
 
 module:
   imports:
@@ -14,10 +14,11 @@ markup:
       unsafe: true
 
 params:
+  seoTitle: Carpintería Aluminio FChirea
   theme:
     # light | dark | system
     default: system
-    displayToggle: false
+    displayToggle: true
   page:
       # full (100%), wide (90rem), normal (1280px)
       width: normal
@@ -43,18 +44,12 @@ menu:
     - name: Servicios
       pageRef: servicios
       weight: 2
-#    - name: Prefabricados
-#      pageRef: productos
-#      weight: 3
     - name: Proyectos
       pageRef: proyectos
-      weight: 4
-#    - name: Guías
-#      pageRef: guia_tecnica/
-#      weight: 5
+      weight: 3
     - name: Contacto
       pageRef: contacto
-      weight: 6
+      weight: 5
 #    - name: Theme Toggle
 #      params:
 #        type: theme-toggle

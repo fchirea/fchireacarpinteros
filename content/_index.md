@@ -6,7 +6,7 @@ layout: "hextra-home"
 ---
 
 {{< hextra/hero-container
-  image="principal_02.png"
+  image="principal_03.png"
   imageTitle="Carpintería de Aluminio"
   imageWidth="300"
 >}}
