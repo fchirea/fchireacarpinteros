@@ -1,7 +1,7 @@
 ---
 title: "Carpintería de Aluminio"
 draft: false
-description: "Carpintería de aluminio con más de 20 años fabricando e instalando ventanas y puertas a medida."
+description: "Más de 20 años fabricando e instalando ventanas, puertas y cerramientos de aluminio en Coslada y alrededores."
 layout: "hextra-home"
 ---
 
@@ -18,17 +18,17 @@ layout: "hextra-home"
 <br>
 
 {{< hextra/hero-subtitle >}}
-  Fabricamos e instalamos ventanas, puertas y cerramientos de aluminio a medida, con soluciones adaptadas a cada obra.
+  Fabricamos e instalamos ventanas, puertas y cerramientos de aluminio. Soluciones adaptadas a cada obra en Coslada y alrededores.
 {{< /hextra/hero-subtitle >}}
 
 <br>
 
-{{< hextra/hero-button text="Contacta" link="contacto" >}}
+{{< hextra/hero-button text="Contacto" link="contacto" >}}
 {{< hextra/hero-badge style="padding: 13px 12px; font-size: .875rem;" link="servicios" >}}
-  Ver Servicios
+  Servicios
 {{< /hextra/hero-badge >}}
 {{< hextra/hero-badge style="padding: 13px 12px; font-size: .875rem;" link="proyectos" >}}
-  Ver Proyectos
+  Proyectos
 {{< /hextra/hero-badge >}}
 
 {{< /hextra/hero-container >}}
