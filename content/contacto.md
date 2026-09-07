@@ -9,7 +9,7 @@ toc: false
 
 <br>
 
-{{< hextra/hero-badge style="padding: 13px 12px; font-size: .875rem;" link="mailto:carpinteriacoslada@gmail.com?subject=Solicitud%20de%20presupuesto" >}}
+{{< hextra/hero-badge style="padding: 13px 12px; font-size: .875rem;" link="mailto:administracion@fchireacarpinteros.com?subject=Solicitud%20de%20presupuesto" >}}
   <span>Escribir por email</span>
   {{< icon name="mail" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
@@ -22,7 +22,7 @@ toc: false
 <br>
 
 **Email**  
-carpinteriacoslada@gmail.com  
+administracion@fchireacarpinteros.com  
 **Teléfono**  
 +34 666 39 06 57  
 **Dirección**  
